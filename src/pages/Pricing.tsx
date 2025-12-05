@@ -20,6 +20,11 @@ const Pricing = () => {
     min60: "R350",
     min90: "R450"
   }, {
+    name: "Cupping massage",
+    min30: "R350",
+    min60: "R450",
+    min90: "-"
+  }, {
     name: "Sports",
     min30: "R250",
     min60: "R350",
