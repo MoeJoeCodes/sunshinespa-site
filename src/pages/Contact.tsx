@@ -95,7 +95,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Location</h3>
-                      <p className="text-muted-foreground">120 Rose Avenue, Lenasia</p>
+                      <p className="text-muted-foreground">85 Albatross Street, Lenasia</p>
                       <p className="text-xs text-muted-foreground/70 mt-1 italic">Please use side entrance and call for assistance</p>
                     </div>
                   </div>
@@ -154,7 +154,7 @@ const Contact = () => {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Sunshine Spa Location - 120 Rose Avenue, Lenasia"
+                  title="Sunshine Spa Location - 85 Albatross Street, Lenasia"
                   className="w-full"
                 />
               </div>

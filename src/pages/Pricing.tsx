@@ -5,63 +5,98 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Sparkles } from "lucide-react";
 const Pricing = () => {
   const massages = [{
-    name: "Aroma therapy full body",
-    min30: "R150",
-    min60: "R250",
-    min90: "R350"
-  }, {
-    name: "Thai hot oil full body",
+    name: "Aroma therapy (full body)",
     min30: "R200",
     min60: "R300",
-    min90: "R400"
-  }, {
-    name: "Deep tissue",
-    min30: "R250",
-    min60: "R350",
     min90: "R450"
   }, {
-    name: "Cupping massage",
-    min30: "R350",
-    min60: "R450",
-    min90: "-"
+    name: "Thai hot oil (full body)",
+    min30: "R200",
+    min60: "R350",
+    min90: "R500"
   }, {
-    name: "Sports",
+    name: "Deep tissue massage",
     min30: "R250",
     min60: "R350",
-    min90: "R450"
+    min90: "R500"
+  }, {
+    name: "Sports massage",
+    min30: "R250",
+    min60: "R350",
+    min90: "R500"
   }, {
     name: "Pre-natal pregnancy",
     min30: "R250",
     min60: "R350",
-    min90: "R450"
+    min90: "R500"
   }, {
     name: "Back, neck & shoulder",
-    min30: "R150",
-    min60: "R250",
-    min90: "R350"
+    min30: "R200",
+    min60: "R300",
+    min90: "R450"
   }, {
     name: "Head massage",
     min30: "R150",
     min60: "-",
     min90: "-"
   }, {
+    name: "Foot massage ",
+    min30: "R200",
+    min60: "R300",
+    min90: "-"
+  }, {  
     name: "Foot massage & scrub",
+    min30: "-",
+    min60: "R300",
+    min90: "-"
+  }, {
+    name: "Kids/teens foot massage & scrub",
+    min30: "R200",
+    min60: "R300",
+    min90: "R450"
+  }, {
+    name: "Hand massage",
     min30: "R150",
     min60: "-",
     min90: "-"
   }, {
-    name: "Hand massage & scrub",
-    min30: "R150",
-    min60: "-",
+    name: "Walking massage",
+    min30: "R250",
+    min60: "R350",
+    min90: "R500"
+  }, {
+    name: "Hot stone massage",
+    min30: "-",
+    min60: "R400",
+    min90: "R500"
+  }, {
+    name: "Thai herbal massage",
+    min30: "-",
+    min60: "R400",
+    min90: "R500"
+  }, {
+    name: "Foot reflexology massage",
+    min30: "R200",
+    min60: "R350",
     min90: "-"
   }, {
-    name: "Kids/teens massage",
-    min30: "R150",
-    min60: "R200",
-    min90: "R250"
+    name: "Traditional massage",
+    min30: "R250",
+    min60: "R350",
+    min90: "R500"
+  }, {
+    name: "Thai massage (dry)",
+    min30: "R250",
+    min60: "R350",
+    min90: "R500"
+  }, {
+    name: "Hot oil massage",
+    min30: "R250",
+    min60: "R350",
+    min90: "R500"
   }];
   const cupping = [{
-    name: "Dry cupping",
+    name: "Thai cupping",
     price: "R150"
   }, {
     name: "Wet/sunnah cupping",
@@ -93,7 +128,7 @@ const Pricing = () => {
             <div className="w-20 sm:w-24 h-1 bg-gradient-sunrise mx-auto mb-4 sm:mb-6 rounded-full" />
             <div className="space-y-2 text-muted-foreground">
               <p className="text-sm sm:text-base md:text-lg">   071 117 4675 | 062 166 7239</p>
-              <p className="text-sm sm:text-base md:text-lg">  120 Rose Avenue Ext 1</p>
+              <p className="text-sm sm:text-base md:text-lg">  85 Albatross Street, Lenasia, Ext 1</p>
             </div>
           </div>
 
