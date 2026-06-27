@@ -67,3 +67,15 @@ All colors MUST be HSL.
     @apply font-playfair;
   }
 }
+
+@keyframes soft-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(213, 175, 230, 0.35);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(213, 175, 230, 0);
+    transform: scale(1.03);
+  }
+}
